@@ -6,7 +6,7 @@ function Stage (props) {
     <Person name = {person.name} avatar = {person.avatar} 
     inSession = {person.inSession} onStage = {person.onStage} key = {person.id} />);
   return (
-    <section class='stage'> 
+    <section className='stage'> 
     {people}
     </section>
   );
