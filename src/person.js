@@ -11,7 +11,11 @@ function Person(props){
   if (props.inSession){
     return (
      <div className= "person">
-       <img src = {props.avatar} />
+       < img className = 'img-person'
+       src = {
+         props.avatar
+       }
+       />
        <div className = "info">
          <h3>{props.name}</h3>
          <p><img className = "dot"/>{status}</p>

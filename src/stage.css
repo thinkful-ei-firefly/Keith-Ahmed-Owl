@@ -1,0 +1,7 @@
+.stage {
+    display: flex;
+    background-color: grey;
+    width: 80%;
+    justify-content: space-around;
+
+}
