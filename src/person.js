@@ -2,7 +2,6 @@ import React from 'react';
 import './person.css';
 
 function Person(props){
-  console.log(props);
   let status = '';
   if (props.onStage)
     status = 'on stage';

@@ -9,7 +9,11 @@ img {
 }
 
 .stageName {
-    background-color: darkgrey
+    background-color: rgb(31, 31, 31);
+    color: white;
+    text-align: center;
+    height: 80px;
+    border-radius: 4px;
 }
 
 .stageImg {

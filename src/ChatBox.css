@@ -1,0 +1,16 @@
+.chatItem{
+  display: flex;
+}
+
+.chatImg{
+  height: 50px;
+  widows: 50px;
+  border-radius: 50%;
+}
+.message{
+  text-align: center;
+  margin: 10px;
+}
+.log{
+  color: lightslategray;
+}
